@@ -43,3 +43,8 @@ Thumbs.db
 ###############
 *MANIFEST
 dist/
+
+# Virtual Environments
+######################
+codalab_env/**/**
+dev/**/**

@@ -15,8 +15,15 @@ running, uploading, etc.).  The API exposed is used by both the
 
 2. Setup the interface to 
 
+    (Bash)
     export PATH=$PWD/codalab/bin
 
+    (PowerShell)
+    $env:Path += ";C:\dev\codalab-cli\codalab\bin";
+
+    (Windows Command)
+    set PATH=%PATH%;C:\dev\codalab-cli\codalab\bin
+    
     cl  # This should print out a help message.
 
     cl worker  # Start up a worker in another shell

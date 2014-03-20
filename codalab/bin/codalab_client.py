@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 import sys
+import os
+
+sys.path.append(os.path.realpath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 from codalab.config.config_parser import ConfigParser
-
 
 if __name__ == '__main__':
     config_parser = ConfigParser(sys.argv[1])
